@@ -110,7 +110,7 @@ export function Speakers() {
             id="speakers-title"
             className="font-display text-4xl font-medium tracking-tighter text-primary sm:text-5xl"
           >
-            Speakers
+            Speakers and Workshops
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
             Our speaker lineup features industry leaders, startup founders, and
