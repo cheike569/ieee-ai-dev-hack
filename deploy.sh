@@ -19,6 +19,6 @@ echo "🔨 Building Next.js app..."
 npm run build
 
 echo "♻️ Restarting PM2 app..."
-pm2 reload ecosystem.config.js --only $APP_NAME
+pm2 restart all
 
 echo "✅ Deployment complete!"
