@@ -16,7 +16,7 @@ export function Hero() {
           </h2>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
             <p>
-              Join innovators, coders, and creators from around the world for a weekend of boundless possibility. From September 5 - 7, dive into the cutting edge of artificial intelligence and software development—all from the comfort of your own workspace.
+              Join innovators, coders, and creators from around the world for a weekend of boundless possibility. From September 19 - 21, dive into the cutting edge of artificial intelligence and software development—all from the comfort of your own workspace.
             </p>
             <p>
               Whether you&#39;re reimagining business workflows, building voice-powered assistants, or tackling healthcare challenges with AI, this is your moment to create something that matters.
