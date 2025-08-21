@@ -18,7 +18,7 @@ export function Header() {
              Dates: <time dateTime="2025-09-05T18:00">09/19 @ 6pm PST</time> - <time dateTime="2025-09-07T16:00">09/21 @ 4pm PST</time>
            </p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
-            <p>Worldwide</p>
+            <p>United States</p>
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">

@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     default: 'IEEE AI Dev Hack 2025',
   },
   description:
-    'Join IEEE AI Dev Hack 2025 - a remote hackathon from Sept 5–7 focused on building real-world AI tools. Compete on Devpost for cash prizes, workshops, and global impact. Open to students and developers worldwide!',
+    'Join IEEE AI Dev Hack 2025 - a remote hackathon from Sept 19–21 focused on building real-world AI tools. Compete on Devpost for cash prizes, workshops, and global impact.',
   icons: [
     { rel: 'icon', url: faviconPng.src, type: 'image/png' },
   ],
