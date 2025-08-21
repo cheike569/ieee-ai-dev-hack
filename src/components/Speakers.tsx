@@ -12,49 +12,20 @@ import placeholder from '@/images/avatars/png.png'
 const days = [
   {
     name: 'Sample Workshop ',
-    date: 'August 10',
-    dateTime: '2022-04-04',
+    date: 'September 10',
+    dateTime: '2025-09-10',
     speakers: [
       {
-        name: 'Steven McHail',
-        role: 'Designer at Globex Corporation',
+        name: 'TBA',
+        role: 'TBA',
         image: placeholder,
-        title: 'Designing for AI',
+        title: 'TBA',
         description:
-          'Learn how to create user-friendly interfaces for AI applications, focusing on usability and accessibility.',
+          'TBA',
       },
     ],
   },
-  {
-    name: 'Sample Workshop 2',
-    date: 'August 11',
-    dateTime: '2022-04-05',
-    speakers: [
-      {
-        name: 'Damaris Kimura',
-        role: 'Senior Engineer at OCP',
-        image: placeholder,
-        title: 'Designing for AI',
-        description:
-          'Learn how to create user-friendly interfaces for AI applications, focusing on usability and accessibility.',
-      },
-    ],
-  },
-  {
-    name: 'Sample Workshop 3',
-    date: 'August 12',
-    dateTime: '2022-04-06',
-    speakers: [
-      {
-        name: 'Andrew Greene',
-        role: 'Frontend Developer at Ultratech',
-        image: placeholder,
-        title: 'Designing for AI',
-        description:
-          'Learn how to create user-friendly interfaces for AI applications, focusing on usability and accessibility.',
-      },
-    ],
-  },
+
 ]
 
 function ImageClipPaths({

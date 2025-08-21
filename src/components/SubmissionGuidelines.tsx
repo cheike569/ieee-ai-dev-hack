@@ -27,7 +27,7 @@ const guidelines = [
   },
   {
     name: 'Deadline',
-    description: 'Submit by: Sep 7 @ 4pm PST',
+    description: 'Submit by: Sep 21 @ 4pm PST',
     icon: ClockIcon,
   },
 ]

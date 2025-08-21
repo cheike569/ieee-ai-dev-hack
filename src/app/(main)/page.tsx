@@ -22,7 +22,7 @@ export default function Home() {
       <Speakers />
       <Schedule />
       <Judges />
-      <Sponsors />
+      {/*<Sponsors />*/}
       <FAQ />
     </>
   )

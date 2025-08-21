@@ -5,7 +5,7 @@ import { Container } from '@/components/Container'
 export function Hero() {
   return (
     <div className="relative py-20 sm:pt-36 sm:pb-24">
-      <BackgroundImage className="-top-36 -bottom-14" />
+      <BackgroundImage className="-top-40 -bottom-14" />
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
           <h1 className="text-5xl tech-font font-bold tracking-tighter text-primary sm:text-7xl">
@@ -29,8 +29,8 @@ export function Hero() {
             {[
               ['Speakers', 'TBA'],
               ['Tracks', '6'],
-              ['Participants', 'TBA'],
-              ['Location', 'Worldwide'],
+              ['Participants', '1200+'],
+              ['Location', 'United States'],
             ].map(([name, value]) => (
               <div key={name}>
                 <dt className="font-mono text-sm text-primary">{name}</dt>

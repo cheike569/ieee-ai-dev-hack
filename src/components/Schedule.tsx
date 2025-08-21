@@ -21,8 +21,8 @@ interface Day {
 
 const schedule: Array<Day> = [
   {
-    date: 'Friday, Sep 5',
-    dateTime: '2025-09-05',
+    date: 'Friday, Sep 19',
+    dateTime: '2025-09-19',
     summary: 'We kick things off with a warm welcome and challenge briefing.',
     timeSlots: [
       {
@@ -35,8 +35,8 @@ const schedule: Array<Day> = [
     ],
   },
   {
-    date: 'Saturday, Sep 6',
-    dateTime: '2025-09-06',
+    date: 'Saturday, Sep 20',
+    dateTime: '2025-09-20',
     summary: 'An open day of hacking, building, mentoring, and workshops.',
     timeSlots: [
       {
@@ -49,8 +49,8 @@ const schedule: Array<Day> = [
     ],
   },
   {
-    date: 'Sunday, Sep 7',
-    dateTime: '2025-09-07',
+    date: 'Sunday, Sep 21',
+    dateTime: '2025-09-21',
     summary: 'It’s the final stretch—submit by 4pm sharp!',
     timeSlots: [
       {
@@ -58,20 +58,6 @@ const schedule: Array<Day> = [
         description: 'Submit your project on Devpost by 4:00PM PST.',
         start: '4:00PM',
         end: '4:00PM',
-      },
-    ],
-  },
-  {
-    date: 'Wednesday, Sep 10',
-    dateTime: '2025-09-10',
-    summary: 'Winners announced.',
-    timeSlots: [
-      {
-        name: 'Winners Announcement',
-        description:
-          'Join us for the live stream as we announce the winners and celebrate all participants.',
-        start: '6:00PM',
-        end: '7:00PM',
       },
     ],
   },

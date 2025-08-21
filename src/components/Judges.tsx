@@ -1,5 +1,3 @@
-'use client'
-
 import Image from 'next/image'
 import { useId } from 'react'
 import clsx from 'clsx'
@@ -7,32 +5,31 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 import placeholder from '@/images/avatars/png.png'
+import ch from '@/images/people/ch.jpeg'
+import pradyumna from '@/images/people/pk.jpeg'
+import swpnali from '@/images/people/sk.jpeg'
+import madhumitha from '@/images/people/mk.jpeg'
 
 const judges = [
   {
-    name: 'Judge One',
-    role: 'AI Research Scientist',
-    image: placeholder,
+    name: 'Pradyumna Amasebail Kodgi',
+    role: 'Product Manager, Oracle',
+    image: pradyumna,
   },
   {
-    name: 'Judge Two',
-    role: 'Technology Innovation Director',
-    image: placeholder,
+    name: 'Christoph Heike',
+    role: 'Founder, Greetmate Inc',
+    image: ch,
   },
   {
-    name: 'Judge Three',
-    role: 'Senior Software Architect',
-    image: placeholder,
+    name: 'Swpnali Karvekar',
+    role: 'Analyst, Rivian',
+    image: swpnali,
   },
   {
-    name: 'Judge Four',
-    role: 'Data Science Lead',
-    image: placeholder,
-  },
-  {
-    name: 'Judge Five',
-    role: 'Industry Expert',
-    image: placeholder,
+    name: 'Madhumitha',
+    role: 'AI Researcher/ Senior IEEE member',
+    image: madhumitha,
   },
 ]
 
@@ -76,7 +73,8 @@ export function Judges() {
             Judges
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Our distinguished panel of judges brings together expertise from various domains to evaluate your innovative solutions.
+            Our distinguished panel of judges brings together expertise from
+            various domains to evaluate your innovative solutions.
           </p>
         </div>
         <div className="mt-14 grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 sm:gap-y-16 md:grid-cols-3 lg:grid-cols-5">
@@ -100,7 +98,7 @@ export function Judges() {
                   style={{ clipPath: `url(#${id}-${judgeIndex % 3})` }}
                 >
                   <Image
-                    className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
+                    className="absolute inset-0 h-full w-full object-cover grayscale-50 transition duration-300 group-hover:scale-110"
                     src={judge.image}
                     alt=""
                     priority

@@ -4,6 +4,7 @@ import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
 import RegistrationBanner from '@/components/RegistrationBanner'
+import faviconPng from './favicon.png'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -32,6 +33,9 @@ export const metadata: Metadata = {
   },
   description:
     'Join IEEE AI Dev Hack 2025 - a remote hackathon from Sept 5–7 focused on building real-world AI tools. Compete on Devpost for cash prizes, workshops, and global impact. Open to students and developers worldwide!',
+  icons: [
+    { rel: 'icon', url: faviconPng.src, type: 'image/png' },
+  ],
 }
 
 export default function RootLayout({
