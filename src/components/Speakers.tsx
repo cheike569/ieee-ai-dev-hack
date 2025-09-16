@@ -8,24 +8,56 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 import placeholder from '@/images/avatars/png.png'
+import ch from '@/images/people/ch.jpeg'
+import pradyumna from '@/images/people/pk.jpeg'
+import madhumitha from '@/images/people/mk.jpeg'
 
 const days = [
   {
-    name: 'Sample Workshop ',
-    date: 'September 10',
-    dateTime: '2025-09-10',
+    name: 'Building a Next.js AI Chatbot',
+    date: '19th Sept, 4:30 PM PT · 60 mins',
+    dateTime: '2025-09-19',
     speakers: [
       {
-        name: 'TBA',
-        role: 'TBA',
-        image: placeholder,
-        title: 'TBA',
+        name: 'Christoph Heike',
+        role: 'Founder, Greetmate Inc',
+        image: ch,
+        title: 'Building a Next.js AI Chatbot',
         description:
-          'TBA',
+          'Learn to build real-time AI chatbot applications using Next.js and WebSockets, enabling responsive, scalable, and interactive conversational experiences.',
       },
     ],
   },
-
+  {
+    name: 'Using Groq for LLM Applications',
+    date: '20th Sept, 5:00 PM PT · 60 mins',
+    dateTime: '2025-09-20',
+    speakers: [
+      {
+        name: 'Madhumitha',
+        role: 'AI Researcher',
+        image: madhumitha,
+        title: 'Using Groq for LLM Applications',
+        description:
+          'Explore building efficient LLM applications with Groq, focusing on ultra-low latency, scalability, optimized inference, and enterprise integration.',
+      },
+    ],
+  },
+  {
+    name: 'Designing Practical AI Agents',
+    date: '21st Sept, 11:00 AM PT · 60 mins',
+    dateTime: '2025-09-21',
+    speakers: [
+      {
+        name: 'Pradyumna Amasebail Kodgi',
+        role: 'Product Manager, Oracle',
+        image: pradyumna,
+        title: 'Designing Practical AI Agents',
+        description:
+          'Discover how to create, orchestrate, and deploy intelligent AI agents using Langflow’s visual framework, simplifying workflows and integrations.',
+      },
+    ],
+  },
 ]
 
 function ImageClipPaths({
@@ -93,10 +125,10 @@ export function Speakers() {
           </p>
         </div>
         <TabGroup
-          className="mt-14 grid grid-cols-1 items-start gap-x-8 gap-y-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-4"
+          className="mt-14 grid grid-cols-1 items-start gap-x-8 gap-y-8 sm:mt-16 sm:gap-y-16 lg:mt-24 lg:grid-cols-6"
           vertical={tabOrientation === 'vertical'}
         >
-          <div className="relative -mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:block sm:overflow-visible sm:pb-0">
+          <div className="relative -mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:block sm:overflow-visible sm:pb-0 lg:col-span-2">
             <div className="absolute top-2 bottom-0 left-0.5 hidden w-px bg-slate-200 lg:block" />
             <TabList className="grid auto-cols-auto grid-flow-col justify-start gap-x-8 gap-y-10 px-4 whitespace-nowrap sm:mx-auto sm:max-w-2xl sm:grid-cols-3 sm:px-0 sm:text-center lg:grid-flow-row lg:grid-cols-1 lg:text-left">
               {({ selectedIndex }) => (
@@ -127,7 +159,7 @@ export function Speakers() {
                         </div>
                         <time
                           dateTime={day.dateTime}
-                          className="mt-1.5 block text-2xl font-semibold tracking-tight"
+                          className="mt-1.5 block text-xl font-semibold tracking-tight"
                         >
                           {day.date}
                         </time>
@@ -138,7 +170,7 @@ export function Speakers() {
               )}
             </TabList>
           </div>
-          <TabPanels className="lg:col-span-3">
+          <TabPanels className="lg:col-span-4">
             {days.map((day) => (
               <TabPanel
                 key={day.dateTime}

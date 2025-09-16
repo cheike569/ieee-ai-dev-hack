@@ -9,6 +9,7 @@ import ch from '@/images/people/ch.jpeg'
 import pradyumna from '@/images/people/pk.jpeg'
 import swpnali from '@/images/people/sk.jpeg'
 import madhumitha from '@/images/people/mk.jpeg'
+import gora from '@/images/people/gd.jpeg'
 
 const judges = [
   {
@@ -18,7 +19,7 @@ const judges = [
   },
   {
     name: 'Christoph Heike',
-    role: 'Founder, Greetmate Inc',
+    role: 'Founder, Greetmate Inc / Software & AI Engineer / Consultant',
     image: ch,
   },
   {
@@ -30,6 +31,11 @@ const judges = [
     name: 'Madhumitha',
     role: 'AI Researcher/ Senior IEEE member',
     image: madhumitha,
+  },
+  {
+    name: 'Gora Doatta',
+    role: 'Serial Entrepreneur / Technologist / Educator / Advisor / Digital Health Standards SME / Thought Leader / Mobile Health Standards Pioneer',
+    image: gora,
   },
 ]
 

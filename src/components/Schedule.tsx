@@ -51,7 +51,7 @@ const schedule: Array<Day> = [
   {
     date: 'Sunday, Sep 21',
     dateTime: '2025-09-21',
-    summary: 'It’s the final stretch—submit by 4pm sharp!',
+    summary: 'It’s the final stretch - submit by 4pm sharp!',
     timeSlots: [
       {
         name: 'Final Submission Deadline',
