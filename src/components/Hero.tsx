@@ -27,9 +27,9 @@ export function Hero() {
           </Button>
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
-              ['Speakers', 'TBA'],
+              ['Speakers', '3'],
               ['Tracks', '6'],
-              ['Participants', '1200+'],
+              ['Participants', '1500+'],
               ['Location', 'United States'],
             ].map(([name, value]) => (
               <div key={name}>
